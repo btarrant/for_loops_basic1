@@ -16,8 +16,11 @@
 #        print(x)
 
 #Whoa. That Sucker's Huge
-sum = 0
-for x in range(1, 500001,2):
-    sum += x
-print(sum)
+#sum = 0
+#for x in range (1, 500001, 2):
+#    sum += x
+#print(sum)
 
+#Countdown by Fours
+for x in range (2018, 0, -4):
+    print(x)
