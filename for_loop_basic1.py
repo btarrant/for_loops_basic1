@@ -22,5 +22,14 @@
 #print(sum)
 
 #Countdown by Fours
-for x in range (2018, 0, -4):
-    print(x)
+#for x in range (2018, 0, -4):
+#    print(x)
+
+#Flexible Counter
+low = 2
+high = 9
+mult = 3
+
+for x in range (low, high + 1):
+    if x % mult == 0:
+        print(x)
